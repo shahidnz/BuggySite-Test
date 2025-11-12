@@ -1,0 +1,48 @@
+{
+"valid": {
+      "first_name": "Greg",
+      "last_name": "Davidson",
+      "email": "Greg.Davidson@datacom.com",
+      "phone": "0221234567",
+      "country": "Canada",
+      "password": "Datacom@123!",
+      "terms": true,
+      "message": ""
+    },
+    "all_empty": {
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "phone": "",
+      "country": "",
+      "password": "",
+      "terms": false,
+      "message": "The password should contain between [6,20] characters!"
+    },
+    "empty_last_name": {
+      "last_name": "",
+      "terms": false,
+      "message":
+    },
+    "invalid_phone_short": {
+      "phone": "12345",
+      "message": "The phone number should contain at least 10 characters!"
+    },
+  "invalid_phone_long": {
+      "phone": "123451234512345"
+    },
+  "invalid_phone_alphanumeric": {
+      "phone": "ABCDE12345"
+    },
+  "invalid_password_short": {
+      "password": "pass",
+      "message": "The password should contain between [6,20] characters!"
+    },
+  "invalid_password_long": {
+      "password": "ThisPasswordIsVeryLoong",
+      "message": "The password should contain between [6,20] characters!"
+    },
+  "empty_terms": {
+    "terms": false
+  }
+}

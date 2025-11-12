@@ -1,0 +1,2 @@
+Page loaded with Base URL: https://qa-practice.netlify.app/bugs-form
+PAGE LOADED SUCCESSFULLY
